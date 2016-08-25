@@ -9,21 +9,21 @@
 /* Begin PBXBuildFile section */
 		79743F951D6D43F400753A89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79743F941D6D43F400753A89 /* AppDelegate.swift */; };
 		79743F971D6D43F400753A89 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79743F961D6D43F400753A89 /* MasterViewController.swift */; };
-		79743F991D6D43F400753A89 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79743F981D6D43F400753A89 /* DetailViewController.swift */; };
 		79743F9C1D6D43F400753A89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79743F9A1D6D43F400753A89 /* Main.storyboard */; };
 		79743F9E1D6D43F400753A89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79743F9D1D6D43F400753A89 /* Assets.xcassets */; };
 		79743FA11D6D43F400753A89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79743F9F1D6D43F400753A89 /* LaunchScreen.storyboard */; };
+		79743FA91D6D457900753A89 /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = 79743FA81D6D457900753A89 /* start.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		79743F911D6D43F400753A89 /* Word Scramble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Word Scramble.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		79743F941D6D43F400753A89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		79743F961D6D43F400753A89 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		79743F981D6D43F400753A89 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		79743F9B1D6D43F400753A89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		79743F9D1D6D43F400753A89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		79743FA01D6D43F400753A89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		79743FA21D6D43F400753A89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79743FA81D6D457900753A89 /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +58,10 @@
 			children = (
 				79743F941D6D43F400753A89 /* AppDelegate.swift */,
 				79743F961D6D43F400753A89 /* MasterViewController.swift */,
-				79743F981D6D43F400753A89 /* DetailViewController.swift */,
 				79743F9A1D6D43F400753A89 /* Main.storyboard */,
 				79743F9D1D6D43F400753A89 /* Assets.xcassets */,
 				79743F9F1D6D43F400753A89 /* LaunchScreen.storyboard */,
+				79743FA81D6D457900753A89 /* start.txt */,
 				79743FA21D6D43F400753A89 /* Info.plist */,
 			);
 			path = "Word Scramble";
@@ -99,6 +99,7 @@
 				TargetAttributes = {
 					79743F901D6D43F400753A89 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 5SBW7AT5HT;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -127,6 +128,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				79743FA11D6D43F400753A89 /* LaunchScreen.storyboard in Resources */,
+				79743FA91D6D457900753A89 /* start.txt in Resources */,
 				79743F9E1D6D43F400753A89 /* Assets.xcassets in Resources */,
 				79743F9C1D6D43F400753A89 /* Main.storyboard in Resources */,
 			);
@@ -139,7 +141,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79743F991D6D43F400753A89 /* DetailViewController.swift in Sources */,
 				79743F971D6D43F400753A89 /* MasterViewController.swift in Sources */,
 				79743F951D6D43F400753A89 /* AppDelegate.swift in Sources */,
 			);
@@ -264,6 +265,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 5SBW7AT5HT;
 				INFOPLIST_FILE = "Word Scramble/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ethan.Word-Scramble";
@@ -276,6 +279,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 5SBW7AT5HT;
 				INFOPLIST_FILE = "Word Scramble/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ethan.Word-Scramble";
@@ -303,6 +308,7 @@
 				79743FA71D6D43F400753A89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
